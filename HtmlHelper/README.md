@@ -3,7 +3,7 @@
 #### Chamando style
 
 ```php
-require_once(resource_path('dir/to/helpers.php'));
+require_once('dir/to/helpers.php');
 
 echo HtmlHelper::htmlResources([
         HtmlHelper::mix_version('/Assets/css/styles.css'),
@@ -14,7 +14,7 @@ echo HtmlHelper::htmlResources([
 #### Chamando script
 
 ```php
-require_once(resource_path('dir/to/helpers.php'));
+require_once('dir/to/helpers.php');
 
 echo HtmlHelper::htmlResources([
         HtmlHelper::mix_version('/assets/js/scripts.js'),
